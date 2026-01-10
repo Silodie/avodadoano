@@ -1,0 +1,43 @@
+@use 'var';
+
+.index-main{
+    justify-content: center;
+    text-align: center;
+}
+.ind-main{
+    align-items:center;
+    justify-content: center;
+    &-tit{
+        color:var.$grape;
+        font-family: var.$f-boton;
+        font-size: 4vh;
+        justify-items: center;
+        text-align: center;
+        font-weight: bold;
+    }
+    &-text{
+        //padding:1vh;
+        font-family: var.$f-contenido;
+        text-align: justify;
+        font-size: 2.5vh;
+        color:black;
+    }
+    &-hlink{
+        color:var.$softGrape;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: var.$f-hvinculo;
+        &:hover{
+            color:var.$grape;
+        }
+    }
+    &-img{
+        padding:1vh;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        border-radius: 5vh;
+        width:60%;
+        height: auto;
+    }
+}

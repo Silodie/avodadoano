@@ -1,0 +1,95 @@
+@use 'var';
+.header_ps{
+    background-color:var.$oliveGreen;
+    border-bottom: var.$redWine;
+    padding: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-image: url('/assets/img/Fotos/indexBG_6.jpg');
+    background-position:center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-bottom: var.$redWine;
+    //padding: 2vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.dropdown-item{
+    background-color: transparent;
+}
+
+.lang-menu{
+    justify-content: right;
+    align-content: center;
+    &-btn{
+        justify-content: right;
+        text-align: right;
+        border: none;
+        background-color: transparent;
+    }
+    &-drop{
+        background-color: white;
+        width:fit-content;
+        padding:2vh;  
+        border:2px solid green;
+    }
+    &-lenda{
+        justify-content: right;
+        color: var.$grape;
+        font-family: var.$f-leyenda;
+        font-size: 1.5vh;
+        text-decoration: none;
+        &:hover{
+            background-color: transparent;
+            color:var.$softGrape;
+        }
+        &-sub{
+            font-size: 2vh;  
+            &:hover{
+                color:var.$softGrape;
+            }
+        }
+    }
+}
+
+.head{
+
+    &-tit{        
+        font-family: var.$f-contenido;
+        font-size: 5vh;
+        font-weight: bold;
+        text-align: center;
+        color:var.$grape;
+    }
+}
+
+.head-nav-contain{        
+        justify-items: center;    
+        text-align: center;
+        //background-color: white
+        &-item{
+            margin:0 2vh 0 2vh;
+            font-size: 5vh;
+        }
+        &-link{
+            text-align: center;
+            text-decoration: none;
+            font-family: var.$f-leyenda;
+            font-size: 3vh;
+            color:var.$grape;
+            font-weight: bold;
+            &:hover{
+                color:var.$redWine;
+            }
+        }
+    }
+
+.nav-item{
+    font-weight: bold;
+    color: var.$grape;
+}

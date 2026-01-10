@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poiret+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap);
+.info-main {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 0.1vh;
+  padding-right: 0.1vh;
+}
+.info-main-table {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.info-main-textdes {
+  padding: 1vh;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 3vh;
+  color: black;
+}
+.info-main-textdes-data {
+  font-family: "Poiret One", sans-serif;
+  font-size: 6vh;
+  font-weight: bold;
+  color: #72192d;
+}
+.info-main-textab {
+  padding: 1vh;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 2vh;
+  color: black;
+}
+.info-main-textau {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vh;
+  color: black;
+}
+.info-main-textau-data {
+  font-family: "Poiret One", sans-serif;
+  font-size: 8vh;
+  font-weight: bold;
+  text-align: center;
+  color: #72192d;
+}
+.info-main-textau-tx {
+  padding: 25vh;
+}
+.info-main-frame {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 3vh;
+}
+.info-main-frame-link {
+  width: 50vh;
+  height: 50vh;
+  border: none;
+}
+.info-main-img {
+  margin: 0 0 2vh 0;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  -webkit-mask-image: linear-gradient(to right, rgba(144, 58, 150, 0.796), transparent), linear-gradient(to left, rgba(144, 58, 150, 0.796), transparent); /* Degradado a la izquierda y derecha */
+  mask-image: linear-gradient(to right, rgba(197, 40, 40, 0.71), transparent), linear-gradient(to left, rgba(197, 40, 40, 0.71), transparent); /* Degradado a la izquierda y derecha */
+  -webkit-mask-position: 0 0, 50% 0;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: 0 0, 50% 0;
+  mask-repeat: no-repeat;
+  width: 25%;
+  height: 60%;
+}

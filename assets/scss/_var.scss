@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poiret+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap);
+
+
+//Colores de la página
+$colors:(
+    olive-green:#abb9739e,
+    moss-green:rgba(129, 138, 88, 0.7),
+    dark-moss-green:#99ba78,
+    red-wine:#cd8989,
+    soft-wine:#A47D82,
+    grape:#72192d,
+    soft-grape:#793a57,
+    error:#a21a3c,
+    ocre:#bd8018,
+    golder: #c59849ce,
+    error-hvr:#a21a3c6f,
+    ocre-hvr:#bd80185e
+);
+
+
+$oliveGreen: map-get($colors, olive-green);
+$mossGreen: map-get($colors, moss-green);
+$darkMossGreen: map-get($colors, dark-moss-green);
+$redWine: map-get($colors, red-wine);
+$softWine: map-get($colors, soft-wine );
+$grape: map-get($colors, grape);
+$softGrape: map-get($colors, soft-grape);
+$doradoArena: map-get($colors, golder);
+$doradoOcre: map-get($colors, ocre);
+$redWarning: map-get($colors, error-hvr) ;
+$doradoOcre-hvr: map-get($colors, ocre-hvr);
+
+$f-titulo:'Space Grotesk', sans-serif;
+$f-contenido:'Quicksand', sans-serif;
+$f-hvinculo:'Cinzel', serif;
+$f-leyenda: 'Montserrat Alternates', sans-serif;
+$f-boton:'Poiret One', sans-serif;

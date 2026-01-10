@@ -1,0 +1,16 @@
+@use 'var';
+@use 'header';
+@use 'index-content';
+@use 'lugar-content';
+@use 'asistir-content';
+@use 'info';
+@use 'footer';
+/*                                   CONTAINERS                              */
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    width:100%;
+}
