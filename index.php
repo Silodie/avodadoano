@@ -1,4 +1,7 @@
 <?php
+@session_cache_expire();
+@session_abort();
+@session_destroy();
 @session_start();
     include("lib/funciones.php");
 
