@@ -1,4 +1,7 @@
 <?php
+@session_cache_expire();
+@session_abort();
+@session_destroy();
 @session_start();
 include('lib/funciones.php');
 
@@ -16,15 +19,6 @@ include('lib/funciones.php');
                         <div class="col-12">                            
                             <a href='https://www.google.com/maps/place/Xard%C3%ADn+do+Recordo/@42.8101836,-8.629299,573m/data=!3m1!1e3!4m14!1m7!3m6!1s0xd2f031dbfc5f8f3:0x43e1d99e806107bd!2sPazo+do+Faramello!8m2!3d42.811042!4d-8.6287261!16s%2Fg%2F11bzs3yz7d!3m5!1s0xd2f02e297e6ba27:0x154e00799d4b44eb!8m2!3d42.8108498!4d-8.6275228!16s%2Fg%2F11g6mrvz2t?entry=ttu&g_ep=EgoyMDI2MDEwNi4wIKXMDSoASAFQAw%3D%3D' target='_blank'><img class="lug-main-img" src="assets/img/Acuarelas/pazo_ac.png" alt="Pzo_FaramAc"></a>
                         </div>
-                        <!--<div class="col-12 lug-main-frame"><br>
-                           <iframe class='lug-main-frame-link' 
-                           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d669.8018392043617!2d-8.628641504438026!3d42.810981496997975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f02e297e6ba27%3A0x154e00799d4b44eb!2sXard%C3%ADn%20do%20Recordo!5e1!3m2!1ses!2ses!4v1767561764044!5m2!1ses!2ses" 
-                           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                             
-                        <iframe class='lug-main-frame-link' 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2926.9263687289326!2d-8.628726100000002!3d42.81104200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2f031dbfc5f8f3%3A0x43e1d99e806107bd!2sPazo%20do%20Faramello!5e0!3m2!1sgl!2ses!4v1759428582832!5m2!1sgl!2ses"
-                            allow="allowfullscreen" loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>-->  
                              <br> 
                              <span><b>Pazo do Faramello, 15980 O Faramello, A Coruña.</b> </span><br> <span>Aparcadoiro: Xardín do Recordo</span><br>
                         </div>
