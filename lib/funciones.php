@@ -54,13 +54,13 @@
                                                             <a class='head-nav-contain-link' href='index.php'>¡Benvidos! </a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
-                                                            <a class='head-nav-contain-link' href='lugar.php'>Localización</a>
+                                                            <a class='head-nav-contain-link' href='ubicación.php'>Ubicación</a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
                                                             <a class='head-nav-contain-link' href='info.php'>Información</a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
-                                                            <a class='head-nav-contain-link' href='gsheetAsistir.php'>Asistir</a>
+                                                            <a class='head-nav-contain-link' href='confirmación.php'>Confirmar</a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
                                                             <span class='head-nav-contain-link' href='#' disabled>Galería</span>
