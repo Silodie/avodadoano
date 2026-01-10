@@ -1,6 +1,8 @@
 @use 'var';
-
-
+.ubic-main{
+    justify-content: center;
+    text-align: center;
+}
 .lug-main{
     text-align: center;
     justify-content: center;
@@ -13,7 +15,6 @@
         font-weight: bold;
     }
     &-textdes{
-        //padding:1vh;
         font-family: var.$f-contenido;
         text-align: justify;
         font-size: 2.5vh;
@@ -28,7 +29,6 @@
     }
     &-textau{
         margin-top:2vh;
-        //padding:1vh;
         font-family: var.$f-contenido;
         text-align: center;
         font-size: 3vh;
@@ -50,16 +50,12 @@
         font-size: 3vh;
         &-link{
             width: 40vh;
-            height: 50vh;
+            height: 40vh;
             border:none;
         }
     }
-    &-image{
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
     &-img{
-        margin:0 0 2vh 0;
+        margin:3vh 0 2vh 0;
         align-self: center;
         justify-self: center;
         text-align: center;
@@ -71,8 +67,7 @@
         -webkit-mask-repeat: no-repeat;     
         mask-position: 0 0, 50% 0; 
         mask-repeat: no-repeat;
-        
-        width:50%;
-        height: 100%;
+        width:30vh;
+        height: 40vh;
     }
 }

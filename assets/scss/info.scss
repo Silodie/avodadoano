@@ -1,33 +1,29 @@
 @use 'var';
-
 .info-main{
-    align-items:center;
     text-align: center;
     justify-content: center;
-    &-alox{
+    &-list{
+        text-align: justify;
+        padding-top: 2vh;
         justify-content: center;
         border:1px solid green;
-    }
-    
-    &-table{
-        //width:50%;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        text-align: center;
-        border:1px solid red;
-        &-texthead{
+        &-listhead{
         font-family: var.$f-boton;
-        font-size: 2.5vh;
+        font-size: 20vh;        
+        text-decoration: none;
         }
-        &-textbody{
+        &-listbody{
         font-family: var.$f-contenido;
-        font-size: 2vh;  
+        text-align: center;
+        text-decoration: none;
+        font-size: 2.5vh;
+        color:black;
+        list-style-type: none;
         }
     }
     &-textdes{
-        padding:1vh;
         font-family: var.$f-contenido;
-        text-align: center;
+        text-align: justify;
         font-size: 2.5vh;
         color:black;
         &-data{
@@ -37,32 +33,17 @@
             color:var.$grape;
         }
     }
-    &-textau{
-        //margin-top:2vh;
-        //padding:1vh;
-        font-family: var.$f-contenido;
-        text-align: center;
-        text-decoration: none;
-        font-size: 2.5vh;
-        color:black;
-        &-data{
-            font-family: var.$f-boton;
-            font-size:8vh;
-            font-weight: bold;
-            text-align: center;
-            color:var.$grape;
-        }
-        &-tx{
-            padding:25vh;
-        }
-    }
   &-hlink{
         color:var.$softGrape;
         text-decoration: none;
         font-weight: bold;
         font-family: var.$f-hvinculo;
+        font-size: 1vh;
         &:hover{
             color:var.$grape;
         }
   }
+}
+ul{
+    list-style-type: none;   
 }

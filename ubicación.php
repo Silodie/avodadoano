@@ -10,7 +10,7 @@ include('lib/funciones.php');
     printHeader("Ubicación");
 ?>
         <!--                                                        CONTENIDO                                                              -->
-                <div class="row main">  
+                <div class="row ubic-main">  
                     <div class="row lug-main">
                         <p class='lug-main-textdes-data'>Pazo do Faramello</p>
                         <div class="col-11 lug-main-textdes">                            
@@ -35,10 +35,7 @@ include('lib/funciones.php');
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d669.1313051316504!2d-8.547237630394125!3d42.872863081046084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe3f1b68ea61%3A0x8c7ea1c11775199a!2sR.%20da%20Rosa%2C%2010%2C%2015701%20Santiago%20de%20Compostela%2C%20A%20Coru%C3%B1a!5e1!3m2!1ses!2ses!4v1767561072787!5m2!1ses!2ses" 
                             width="450" height="450" style="border:0;" allow="allowfullscreen" loading="lazy" 
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                                         
                         </div><br>
-                        
-                       
                     </div>
                 </div>
 

@@ -135,6 +135,11 @@
   height: auto;
 }
 
+.ubic-main {
+  justify-content: center;
+  text-align: center;
+}
+
 .lug-main {
   text-align: center;
   justify-content: center;
@@ -184,15 +189,11 @@
 }
 .lug-main-frame-link {
   width: 40vh;
-  height: 50vh;
+  height: 40vh;
   border: none;
 }
-.lug-main-image {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-}
 .lug-main-img {
-  margin: 0 0 2vh 0;
+  margin: 3vh 0 2vh 0;
   align-self: center;
   justify-self: center;
   text-align: center;
@@ -202,8 +203,8 @@
   -webkit-mask-repeat: no-repeat;
   mask-position: 0 0, 50% 0;
   mask-repeat: no-repeat;
-  width: 50%;
-  height: 100%;
+  width: 30vh;
+  height: 40vh;
 }
 
 .frameStyle {
@@ -304,28 +305,22 @@ iframe {
     }    
 }*/
 .info-main {
-  align-items: center;
   text-align: center;
   justify-content: center;
 }
-.info-main-alox {
-  justify-content: center;
-  border: 1px solid green;
-}
-.info-main-table {
-  width: 50%;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+.info-main-list {
   text-align: center;
+  padding-top: 5vh;
   border: 1px solid red;
 }
-.info-main-table-texthead {
+.info-main-list-listhead {
   font-family: "Poiret One", sans-serif;
-  font-size: 2.5vh;
+  font-size: 2vh;
 }
-.info-main-table-textbody {
+.info-main-list-listbody {
   font-family: "Quicksand", sans-serif;
   font-size: 2vh;
+  list-style-type: none;
 }
 .info-main-textdes {
   padding: 1vh;
@@ -362,9 +357,14 @@ iframe {
   text-decoration: none;
   font-weight: bold;
   font-family: "Cinzel", serif;
+  font-size: 1vh;
 }
 .info-main-hlink:hover {
   color: #72192d;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .endPa {
