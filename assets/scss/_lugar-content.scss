@@ -2,12 +2,8 @@
 
 
 .lug-main{
-    align-items:center;
     text-align: center;
     justify-content: center;
-    //margin: 5vh 0 0 0;
-    padding-left:0.1vh;
-    padding-right: 0.1vh;
     &-tit{
         color:var.$oliveGreen;
         font-family: var.$f-boton;
@@ -17,14 +13,14 @@
         font-weight: bold;
     }
     &-textdes{
-        padding:1vh;
+        //padding:1vh;
         font-family: var.$f-contenido;
         text-align: justify;
-        font-size: 3vh;
+        font-size: 2.5vh;
         color:black;
         &-data{
             font-family: var.$f-boton;
-            font-size:6vh;
+            font-size:4vh;
             font-weight: bold;
             color:var.$grape;
             text-align: center;
@@ -32,7 +28,7 @@
     }
     &-textau{
         margin-top:2vh;
-        padding:1vh;
+        //padding:1vh;
         font-family: var.$f-contenido;
         text-align: center;
         font-size: 3vh;
@@ -53,10 +49,14 @@
         text-align: center;
         font-size: 3vh;
         &-link{
-            width: 50vh;
+            width: 40vh;
             height: 50vh;
             border:none;
         }
+    }
+    &-image{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
     &-img{
         margin:0 0 2vh 0;
@@ -72,7 +72,7 @@
         mask-position: 0 0, 50% 0; 
         mask-repeat: no-repeat;
         
-        width:25%;
-        height: 60%;
+        width:50%;
+        height: 100%;
     }
 }
