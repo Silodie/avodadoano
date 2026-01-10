@@ -1,4 +1,6 @@
 <?php
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Expires: 0");
 @session_cache_expire();
 @session_abort();
 @session_destroy();
