@@ -141,7 +141,7 @@
 }
 
 .lug-main {
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 .lug-main-tit {
@@ -305,27 +305,33 @@ iframe {
     }    
 }*/
 .info-main {
-  text-align: center;
+  align-items: center;
   justify-content: center;
+  border: 1px solid blue;
 }
 .info-main-list {
   text-align: center;
-  padding-top: 5vh;
-  border: 1px solid red;
+  justify-content: center;
+  border: 1px solid green;
+  font-family: "Quicksand", sans-serif;
 }
 .info-main-list-listhead {
-  font-family: "Poiret One", sans-serif;
-  font-size: 2vh;
+  text-align: center;
+  color: #793a57;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
+  font-size: 4vh;
 }
 .info-main-list-listbody {
   font-family: "Quicksand", sans-serif;
-  font-size: 2vh;
+  text-decoration: none;
+  font-size: 2.5vh;
+  color: black;
   list-style-type: none;
 }
 .info-main-textdes {
-  padding: 1vh;
   font-family: "Quicksand", sans-serif;
-  text-align: center;
+  text-align: justify;
   font-size: 2.5vh;
   color: black;
 }
@@ -335,29 +341,10 @@ iframe {
   font-weight: bold;
   color: #72192d;
 }
-.info-main-textau {
-  font-family: "Quicksand", sans-serif;
-  text-align: center;
-  text-decoration: none;
-  font-size: 2.5vh;
-  color: black;
-}
-.info-main-textau-data {
-  font-family: "Poiret One", sans-serif;
-  font-size: 8vh;
-  font-weight: bold;
-  text-align: center;
-  color: #72192d;
-}
-.info-main-textau-tx {
-  padding: 25vh;
-}
 .info-main-hlink {
-  color: #793a57;
+  text-align: center;
   text-decoration: none;
-  font-weight: bold;
-  font-family: "Cinzel", serif;
-  font-size: 1vh;
+  font-size: 4vh;
 }
 .info-main-hlink:hover {
   color: #72192d;

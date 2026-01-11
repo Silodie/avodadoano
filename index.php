@@ -13,7 +13,7 @@ header("Expires: 0");
         <!--                                                        CONTENIDO                                                              -->
                 <div class="row index-main">  
                     <div class="row ind-main">
-                        <div class="col-12- col-lg-6 ">
+                        <div class="col-12 col-lg-6 ">
                                 <img class="ind-main-img" src="assets/img/Fotos/index_Coimbra.jpg" alt="Nós">
                         </div>
                         <div class="col-12 col-lg-6 ind-main-text">
