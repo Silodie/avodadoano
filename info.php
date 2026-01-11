@@ -50,7 +50,6 @@ include('lib/funciones.php');
                         <span class="info-main-textdes">Para os que vides en avión, o autobús <b>6A</b> sale cada media hora (prezo aprox. 1€). Paradas no centro praza de Galicia ou estación de tren.</span><br><br>
                         <span class="info-main-textdes"><b>Estamos á vosa disposición para o que necesitedes</b></span><br><br>
                     </div>
-                    <br>
                     <div class='row info-main'>
                         <p class='info-main-textdes-data'>Prevoda</p>
                         <span class="info-main-textdes">Un mes antes actualizaremos a hora e o sitio.</span>
