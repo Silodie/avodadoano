@@ -7,7 +7,11 @@ header("Expires: 0");
 @session_start();
 include('lib/funciones.php');
 
-    printHeader("Ubicación");
+    $idioma= ['Galego','Castellano'];
+    $enlaceIdioma = ['ubicación.php','ubicación_cast.php'];
+    $enlaceNav = ['index.php','ubicación.php','info.php','confirmación.php'];
+    $nav = ['¡Benvidos!','Ubicación','Información','Confirmar','Galería'];
+    printHeader("Ubicación" ,$idioma , $enlaceIdioma,$enlaceNav,$nav);
 ?>
         <!--                                                        CONTENIDO                                                              -->
                 <div class="row ubic-main">  

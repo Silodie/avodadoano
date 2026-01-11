@@ -6,9 +6,12 @@
 include('lib/funciones.php');
 
 $scriptsArray = ['assets/js/engadirInputs.js'];
+    $idioma= ['Galego','Castellano'];
+    $enlaceIdioma = ['confirmación.php','confirmación_cast.php'];
+    $enlaceNav = ['index.php','ubicación.php','info.php','confirmación.php'];
+    $nav = ['¡Benvidos!','Ubicación','Información','Confirmar','Galería'];
+    printHeader("Confirmación" ,$idioma ,  $enlaceIdioma,$enlaceNav,$nav);
 
-
-    printHeader("Confirmación");
 ?>
         <!--                                                        CONTENIDO                                                              -->
         <div class="row main">

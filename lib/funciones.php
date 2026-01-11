@@ -6,7 +6,7 @@
             return $input;
     }
     
-    function printHeader($title){
+    function printHeader($title,$idioma,$enlaceIdioma,$enlaceNav,$nav){
        echo "<!DOCTYPE html>
                 <html>
                 <head>
@@ -25,12 +25,10 @@
                             <div class='col-12'>
                                 <div class='row lang-menu'>
                                     <button type=button id='dropdownMenuButton' class='lang-menu-btn col-4 col-md-1' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                                        <a class='dropdown-item lang-menu-lenda' href='index.php'>Galego</a>
+                                        <a class='dropdown-item lang-menu-lenda' href='".$enlaceIdioma[0]."'>".$idioma[0]."</a>
                                     </button>
                                     <div class='lang-menu-drop col-sm-4 col-lg-2 dropdown-menu ' aria-labelledby='dropdownMenuButton'>
-                                        <a class='dropdown-item lang-menu-lenda lang-menu-lenda-sub' href='#'>Castellano</a>
-                                        <a class='dropdown-item lang-menu-lenda lang-menu-lenda-sub' href='#'>English</a>
-                                        <a class='dropdown-item lang-menu-lenda lang-menu-lenda-sub' href='#'>Catalá</a>
+                                        <a class='dropdown-item lang-menu-lenda lang-menu-lenda-sub' href='".$enlaceIdioma[1]."'>".$idioma[1]."</a>
                                     </div>
                                 </div>               
                             </div>
@@ -51,19 +49,19 @@
                                                 <div class='collapse navbar-collapse' id='navbarText'>
                                                     <ul class='navbar-nav '>
                                                         <li class='head-nav-contain-item active'>
-                                                            <a class='head-nav-contain-link' href='index.php'>¡Benvidos! </a>
+                                                            <a class='head-nav-contain-link' href='".$enlaceNav[0]."'>".$nav[0]." </a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
-                                                            <a class='head-nav-contain-link' href='ubicación.php'>Ubicación</a>
+                                                            <a class='head-nav-contain-link' href='".$enlaceNav[1]."'>".$nav[1]." </a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
-                                                            <a class='head-nav-contain-link' href='info.php'>Información</a>
+                                                            <a class='head-nav-contain-link' href='".$enlaceNav[2]."'>".$nav[2]." </a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
-                                                            <a class='head-nav-contain-link' href='confirmación.php'>Confirmar</a>
+                                                            <a class='head-nav-contain-link' href='".$enlaceNav[3]."'>".$nav[3]." </a>
                                                         </li>
                                                         <li class='head-nav-contain-item'>
-                                                            <span class='head-nav-contain-link' href='#' disabled>Galería</span>
+                                                            <span class='head-nav-contain-link' href='#' disabled>".$nav[4]." </a>
                                                         </li>
                                                     </ul>
                                                 </div>

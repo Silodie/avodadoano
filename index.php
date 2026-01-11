@@ -7,7 +7,11 @@ header("Expires: 0");
 @session_start();
     include("lib/funciones.php");
 
-    printHeader("¡Benvidos!");
+    $idioma= ['Galego','Castellano'];
+    $enlaceIdioma = ['index.php','index_cast.php'];
+    $enlaceNav = ['index.php','ubicación.php','info.php','confirmación.php'];
+    $nav = ['¡Benvidos!','Ubicación','Información','Confirmar','Galería'];
+    printHeader("¡Benvidos!" ,$idioma , $enlaceIdioma,$enlaceNav,$nav);
 
 ?>
         <!--                                                        CONTENIDO                                                              -->

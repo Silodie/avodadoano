@@ -4,8 +4,11 @@
 @session_destroy();
 @session_start();
 include('lib/funciones.php');
-
-    printHeader("Información");
+    $idioma= ['Galego','Castellano'];
+    $enlaceIdioma = ['info.php','info_cast.php'];
+    $enlaceNav = ['index.php','ubicación.php','info.php','confirmación.php'];
+    $nav = ['¡Benvidos!','Ubicación','Información','Confirmar','Galería'];
+    printHeader("Información" ,$idioma , $enlaceIdioma,$enlaceNav,$nav);
 ?>
         <!--                                                        CONTENIDO                                                              -->
                 <div class="row info-main">
@@ -43,7 +46,7 @@ include('lib/funciones.php');
                         </div>
                     </div>
                     <div class='row info-main'>
-                        <span class="info-main-textdes">Debido a alta ocupación para as datas, recomendamos valorar tamén a opción de airbnb. Para os que xa tedes claro que vides, recomendamos facer a reserva o antes posible.</span><br>
+                        <span class="info-main-textdes">Debido á alta ocupación para as datas, recomendamos valorar tamén a opción de airbnb. Para os que xa tedes claro que vides, recomendamos facer a reserva o antes posible.</span><br>
                         <span class="info-main-textdes"> Para os que vides en avión, o autobús <b>6A</b> sale cada media hora (prezo aprox. 1€). Paradas no centro praza de Galicia ou estación de tren.</span><br><br>
                         <span class="info-main-textdes"><b>Estamos á vosa disposición para o que necesitedes</b></span>
                     </div>
@@ -51,8 +54,8 @@ include('lib/funciones.php');
                     <div class='row info-main'>
                         <p class='info-main-textdes-data'>Prevoda</p>
                         <span class="info-main-textdes">Un mes antes actualizaremos a hora e o sitio.</span>
-                    <!--<p class="lug-main-textdes">Ven celebrar a previa con nós. Esperámoste ás <b>19.30</b> en <b>Entreportas</b></p>
-                        <iframe class='lug-main-frame-link' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168.31750543376654!2d-8.543024343512277!3d42.881391607672256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2effbd0b9edb7f%3A0x50f8103ce3c48b47!2sBar%20Entreportas-multitasca!5e1!3m2!1ses!2ses!4v1767562121676!5m2!1ses!2ses" 
+                    <!--<p class="info-main-textdes">Ven celebrar a previa con nós. Esperámoste ás <b>19.30</b> en <b>Entreportas</b></p>
+                        <iframe class='info-main-frame-link' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168.31750543376654!2d-8.543024343512277!3d42.881391607672256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2effbd0b9edb7f%3A0x50f8103ce3c48b47!2sBar%20Entreportas-multitasca!5e1!3m2!1ses!2ses!4v1767562121676!5m2!1ses!2ses" 
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
                     </div>
                 </div>
