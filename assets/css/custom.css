@@ -40,7 +40,6 @@
   background-color: white;
   width: fit-content;
   padding: 2vh;
-  border: 2px solid green;
 }
 .lang-menu-lenda {
   justify-content: right;
@@ -220,114 +219,27 @@ iframe {
   height: 235vh;
 }
 
-/*
-.form{
-    &-container{
-        background-color: var.$oliveGreen;
-        border-radius: 2vh;
-        padding:5vh 0 2vh 0;
-        margin:10vh;
-        justify-content: center;
-        text-align: center;
-
-    }
-    &-invit{
-        align-items: top;       
-        margin-left:0;
-        margin-top: 1vh; 
-
-    }
-    &-items{
-        justify-content: left;
-        align-content: center;
-        border-radius: 2vh;      
-        &-txta{
-            @extend .form-items;
-            align-self:baseline;
-        }
-        &-sub{                
-            &-content{
-                justify-self: center;
-                align-self:center;   
-                font-size: 3vh;                
-                justify-self: center;                
-            }
-           @extend .form-items;  
-           font-family: var.$f-contenido;
-           color:var.$mossGreen;
-           font-weight: bold;
-           border-color: 0.5vh var.$mossGreen solid;
-           justify-self: center;
-           background-color: var.$grape;
-           border-radius: 1vh;
-           margin-top:5vh;
-           &:hover{
-            opacity: 0.6;
-           }
-        }
-    }
-    &-inputText{
-        font-family: var.$f-contenido;
-        font-size: 3vh;
-        border-radius: 2vh;
-        border:0.3vh var.$grape solid;
-        background-color: white;
-        height: 60%;
-        width:100%;
-        padding-left:1vh;
-        color:var.$grape;
-        &-txta{
-          @extend .form-inputText;
-            height: 80%;
-            width:100%;
-            margin-top:3vh;
-        }
-        &-check{
-            @extend .form-items;
-        }
-    }
-    &-check{ 
-        @extend .form-inputText;
-        width:4vh;
-        text-align: left;
-        align-content: center;
-        margin-top:1vh;
-        margin-left:5%;
-        &-label{
-            align-self: center;          
-            font-family: var.$f-contenido   ;
-            font-size: 3vh;
-            color:var.$grape;
-            text-align: left;
-            font-weight: bold;
-            padding-left:1.5vh;
-        }   
-    }    
-}*/
 .info-main {
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
 }
 .info-main-list {
   text-align: center;
   justify-content: center;
-  border: 1px solid green;
-  font-family: "Quicksand", sans-serif;
+  align-items: center;
 }
 .info-main-list-listhead {
   text-align: center;
   color: #793a57;
   font-weight: bold;
   font-family: "Cinzel", serif;
-  font-size: 4vh;
+  font-size: 3vh;
 }
 .info-main-list-listbody {
   font-family: "Quicksand", sans-serif;
   text-decoration: none;
   font-size: 2.5vh;
   color: black;
-  list-style-type: none;
 }
 .info-main-textdes {
   font-family: "Quicksand", sans-serif;
@@ -336,6 +248,7 @@ iframe {
   color: black;
 }
 .info-main-textdes-data {
+  text-align: center;
   font-family: "Poiret One", sans-serif;
   font-size: 4vh;
   font-weight: bold;
@@ -343,15 +256,14 @@ iframe {
 }
 .info-main-hlink {
   text-align: center;
+  color: #793a57;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
   text-decoration: none;
-  font-size: 4vh;
+  font-size: 3vh;
 }
 .info-main-hlink:hover {
   color: #72192d;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .endPa {
