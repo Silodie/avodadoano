@@ -18,7 +18,7 @@ include('lib/funciones.php');
                     <div class="row lug-main">
                         <p class='lug-main-textdes-data'>Pazo do Faramello</p>
                         <div class="col-11 lug-main-textdes">                            
-                            <span>É un lugar único na Galiza. Nado como Real Fábrica de Papel no século XVIII, hoxe convertido en xoia barroca. Os seus xardíns franceses, a capela histórica e o rumor do río Tinto crean unha atmósfera máxica</span><br>
+                            <span>É un lugar único na Galiza. Nado como Real Fábrica de Papel no século XVIII, hoxe convertido en xoia barroca. Os seus xardíns franceses, a capela histórica e o rumor do río Tinto crean unha atmósfera máxica.</span><br>
                             <span> Aquí, respírase historia. Dende a Traslación Xacobea ate a presenza de reis e escritores. Cada recuncho agocha poesía, natureza e memoria viva.</span><br>
                             <span>É un espazo que emociona, que atrapa, que convida a celebrar momentos inesquecíbeis. Sen dúbida, un escenario perfecto para darlle vida a un día tan especial.</span>
                         </div>

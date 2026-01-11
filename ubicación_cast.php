@@ -18,7 +18,7 @@ include('lib/funciones.php');
                     <div class="row lug-main">
                         <p class='lug-main-textdes-data'>Pazo do Faramello</p>
                         <div class="col-11 lug-main-textdes">                            
-                            <span>Es un lugar único en Galicia. Nacido como Real Fábrica de Papel en el siglo XVIII, hoy convertido en joya barroca. Sus jardines franceses, la capilla histórica y el rumor del río Tinto crean una atmósfera mágica</span><br>
+                            <span>Es un lugar único en Galicia. Nacido como Real Fábrica de Papel en el siglo XVIII, hoy convertido en joya barroca. Sus jardines franceses, la capilla histórica y el rumor del río Tinto crean una atmósfera mágica.</span><br>
                             <span> Aquí, se respira historia. Desde la Traslación Xacobea hasta la presencia de reyes y escritores. Cada rincón esconde poesía, naturaleza y memoria viva.</span><br>
                             <span>Es un espacio que emociona, atrapa e invita a celebrar momentos inolvidables. Sin duda, un escenario perfecto para darle vida a un día tan especial.</span>
                         </div>
