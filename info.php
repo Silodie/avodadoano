@@ -41,12 +41,12 @@ include('lib/funciones.php');
                             <span class='info-main-list-listhead'><a class='info-main-hlink'  target='_blank' href='https://www.rosarosae.es/'>Hotel Rosa Rosae</a></span><br>
                             <span class='info-main-list-listbody'><a class='info-main-list-listbody' href='https://www.google.com/maps/place/Rosa+Rosae+(Santiago+de+Compostela)/@42.872552,-8.5491085,615m/data=!3m1!1e3!4m10!3m9!1s0xd2efe3f1d787c8d:0x5c095486ec39eb5e!5m3!1s2026-01-12!4m1!1i2!8m2!3d42.8725481!4d-8.5465336!16s%2Fg%2F1tg6rdk0?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D' targe='_blank'>Rúa da Rosa, 7</a></span><br>
                             <span class='info-main-list-listbody'>981528300</span><br>
-                            <span class='info-main-list-listbody'>Individual: 100€/noite. Doble:150€/noite. O almorzo está incluido no prezo.</span><br>
+                            <span class='info-main-list-listbody'>Individual: 100€/noite. Doble: 150€/noite. O almorzo está incluido no prezo.</span><br>
                             <span class='info-main-list-listbody'>Teléfono. Indicar voda de Silvia e Pablo.</span><br><br>
                         </div>
                     </div>
                     <div class='row info-main'>
-                        <span class="info-main-textdes">Debido á alta ocupación para as datas, aconsellámovos valorar tamén a opción de airbnb e, para os que xa tedes claro que vides, facede a reserva o antes posible.</span><br>
+                        <span class="info-main-textdes">Debido á alta ocupación para as datas, aconsellámosvos valorar tamén a opción de airbnb e, para os que xa tedes claro que vides, facede a reserva o antes posible.</span><br>
                         <span class="info-main-textdes">Para os que vides en avión, o autobús <b>6A</b> sae do aeroporto cada media hora (prezo aprox. 1€) con paradas no centro da cidade na Praza de Galicia e estación de tren.</span><br><br>
                         <span class="info-main-textdes"><b>Estamos á vosa disposición para o que precisedes.</b></span><br><br>
                     </div>
