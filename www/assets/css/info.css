@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poiret+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap);
+.info-main {
+  align-items: center;
+  justify-content: center;
+}
+.info-main-list {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.info-main-list-listhead {
+  text-align: center;
+  color: #793a57;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
+  font-size: 3vh;
+}
+.info-main-list-listbody {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  font-size: 2.5vh;
+  color: black;
+}
+.info-main-textdes {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 2.5vh;
+  color: black;
+}
+.info-main-textdes-data {
+  text-align: center;
+  font-family: "Poiret One", sans-serif;
+  font-size: 4vh;
+  font-weight: bold;
+  color: #72192d;
+}
+.info-main-frame {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 3vh;
+}
+.info-main-frame-link {
+  width: 40vh;
+  height: 40vh;
+  border: none;
+}
+.info-main-hlink {
+  text-align: center;
+  color: #793a57;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
+  text-decoration: none;
+  font-size: 3vh;
+}
+.info-main-hlink:hover {
+  color: #72192d;
+}
