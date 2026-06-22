@@ -25,12 +25,23 @@
         text-align: center;
         font-size: 2.5vh;
         color:black;
+        justify-content: center;
         &-data{
             text-align: center;
             font-family: var.$f-boton;
             font-size:4vh;
             font-weight: bold;
             color:var.$grape;
+        }
+    }
+    &-frame{
+        font-family: var.$f-contenido;
+        text-align: center;
+        font-size: 3vh;
+        &-link{
+            width: 40vh;
+            height: 40vh;
+            border:none;
         }
     }
   &-hlink{

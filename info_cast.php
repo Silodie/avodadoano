@@ -15,11 +15,12 @@ include('lib/funciones.php');
                 <div class="row info-main">
                     <div class='row info-main'>
                         <p class='info-main-textdes-data'>Preboda</p>
-                        <span class="lug-main-textdes">Ven celebrar la previa con nosotros. Te esperamos a las <b>18.30</b> en <b>Casa das Crechas</b></span><br>
-                        <iframe class='lug-main-frame-link'
+                        <span class="info-main-textdes">Ven celebrar la previa con nosotros. Te esperamos a las <b>18.30</b> en <b>Casa das Crechas</b></span><br>
+                        <iframe class='info-main-frame-link'
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1892.3358228785946!2d-8.546105304592052!3d42.88112274539944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe44155034e3%3A0x8b6d558c8e491445!2sCasa%20das%20Crechas!5e1!3m2!1ses!2ses!4v1782151898088!5m2!1ses!2ses" 
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <br><br>
                     <div class="row info-main">
                         <p class='info-main-textdes-data'>Alojamientos</p>
                         <div class='col-11 info-main-list'>
